@@ -1,0 +1,15 @@
+<div>
+  <h1>People</h1>
+  <ul>
+    <li *ngFor='let person of people'>
+      Person : {{ person }}<br />
+    </li>
+  </ul>
+  <button routerLink="/add">Add Person</button>
+  <br />
+  <button routerLink="/search">Search Person</button>
+  <br />
+  <button routerLink="/edit">Edit Person</button>
+  <br />
+  <button routerLink="/delete">Delete Person</button>
+</div>

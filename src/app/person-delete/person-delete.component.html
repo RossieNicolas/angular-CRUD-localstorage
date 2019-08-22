@@ -1,0 +1,14 @@
+<div>
+  <h1>Delete Person</h1>
+
+  <form (ngSubmit)='onSubmit()'>
+
+    <div [formGroup]='delete'>
+      <label for='firstName'>First Name :</label>&nbsp;&nbsp;
+      <input type='text' formControlName='firstName' id="firstName">
+    </div>
+    <br />
+    <button type='submit'>Delete</button>
+
+  </form>
+</div>
